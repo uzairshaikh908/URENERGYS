@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking Button</title>
+    <style>
+        /* Styling the blinking button */
+        .blinking-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: blink 1s infinite;
+            /* Animation for blinking */
+        }
+
+        /* Keyframes for the blink animation */
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+                /* Fully visible */
+            }
+
+            50% {
+                opacity: 0;
+                /* Invisible */
+            }
+        }
+
+        .blinking-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="blinking-button" onclick="showPopup()">Click Me</button>
+
+    <!-- <script>
+        function showPopup() {
+            alert("This is a pop-up message!");
+        }
+    </script> -->
+</body>
+
+</html>

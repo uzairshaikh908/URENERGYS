@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Swis721 Cn BT';
+    src: url('subset-Swiss721BT-ItalicCondensed.eot');
+    src: url('subset-Swiss721BT-ItalicCondensedd41d.eot?#iefix') format('embedded-opentype'),
+        url('subset-Swiss721BT-ItalicCondensed.woff2') format('woff2'),
+        url('subset-Swiss721BT-ItalicCondensed.woff') format('woff'),
+        url('subset-Swiss721BT-ItalicCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Swis721 Cn BT';
+    src: url('subset-Swiss721BT-RomanCondensed.eot');
+    src: url('subset-Swiss721BT-RomanCondensedd41d.eot?#iefix') format('embedded-opentype'),
+        url('subset-Swiss721BT-RomanCondensed.woff2') format('woff2'),
+        url('subset-Swiss721BT-RomanCondensed.woff') format('woff'),
+        url('subset-Swiss721BT-RomanCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Swis721 Cn BT';
+    src: url('subset-Swiss721BT-BoldCondensed.eot');
+    src: url('subset-Swiss721BT-BoldCondensedd41d.eot?#iefix') format('embedded-opentype'),
+        url('subset-Swiss721BT-BoldCondensed.woff2') format('woff2'),
+        url('subset-Swiss721BT-BoldCondensed.woff') format('woff'),
+        url('subset-Swiss721BT-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Swis721 Cn BT';
+    src: url('subset-Swiss721BT-BoldCondensed_1.eot');
+    src: url('subset-Swiss721BT-BoldCondensed_1d41d.eot?#iefix') format('embedded-opentype'),
+        url('subset-Swiss721BT-BoldCondensed_1.woff2') format('woff2'),
+        url('subset-Swiss721BT-BoldCondensed_1.woff') format('woff'),
+        url('subset-Swiss721BT-BoldCondensed_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Swis721 Cn BT';
+    src: url('subset-Swiss721BT-BoldCondensedItalic.eot');
+    src: url('subset-Swiss721BT-BoldCondensedItalicd41d.eot?#iefix') format('embedded-opentype'),
+        url('subset-Swiss721BT-BoldCondensedItalic.woff2') format('woff2'),
+        url('subset-Swiss721BT-BoldCondensedItalic.woff') format('woff'),
+        url('subset-Swiss721BT-BoldCondensedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

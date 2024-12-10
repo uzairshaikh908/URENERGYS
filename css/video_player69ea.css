@@ -1,0 +1,105 @@
+@charset "UTF-8";
+.video-player {
+  position: relative;
+}
+
+.video-player .controls {
+  position: absolute;
+  cursor: pointer;
+  height: 65%;
+  width: 100%;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+.video-player .controls video {
+  background: none;
+}
+.video-player .controls.play:after, .video-player .controls.pause:after, .video-player .controls.loading:after {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  content: " ";
+  position: absolute;
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  color: #fff;
+  vertical-align: baseline;
+  line-height: 60px;
+  background-color: red;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+  opacity: 0.9;
+}
+.video-player .controls.play:after {
+  content: "►";
+  width: 120px;
+  border-radius: 15px;
+  padding-left: 4px;
+}
+@media (max-width: 578px) {
+  .video-player .controls.play:after {
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+  }
+}
+.video-player .controls.pause:after {
+  content: "II";
+  font-weight: 600;
+}
+.video-player .controls.loading:after {
+  border-radius: 50%;
+  background: transparent;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #000 transparent #000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+.video-player .controls:hover.play:after {
+  opacity: 1;
+  text-shadow: 0 0 30px #990000;
+  box-shadow: 0 0 1px #cc0000, 0 0 2px #ff6666;
+}
+.video-player .controls:hover.pause:after {
+  opacity: 0.9;
+  background: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 30px #990000;
+  box-shadow: 0 0 0 2px #555, 0 0 5px #000;
+}
+
+.video-player .mute_button {
+  color: #fff;
+  position: absolute;
+  font-size: 40px;
+  top: 5px;
+  right: 5px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

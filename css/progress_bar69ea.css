@@ -1,0 +1,45 @@
+.progress-bar-tooltip {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 40px;
+
+    height: 1.7rem;
+    background-color: darkcyan;
+    color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    transition: left 3s ease-out;
+    text-align: center;
+    top: -40px;
+    left: 0;
+}
+.progress-bar-tooltip:after{
+    content: "";
+    position: absolute;
+    background-color: darkcyan;
+    width: 16px;
+    height: 16px;
+    bottom: -5px;
+    left: 12px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.progress{
+    overflow: hidden;
+    /*   border-radius:0;
+       overflow:visible;*/
+}
+.progress-bar{
+    background-color: darkcyan;
+    transition: width 3s ease-out;
+}
+.qa-verify-* {
+    display: none;
+    margin-bottom: 20px;
+}
+.loading, .loaded {
+    display: none;
+}

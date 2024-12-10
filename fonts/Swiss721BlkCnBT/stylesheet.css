@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Swis721 BlkCn BT';
+    src: url('subset-Swiss721BT-BlackCondensed.eot');
+    src: url('subset-Swiss721BT-BlackCondensedd41d.eot?#iefix') format('embedded-opentype'),
+        url('subset-Swiss721BT-BlackCondensed.woff2') format('woff2'),
+        url('subset-Swiss721BT-BlackCondensed.woff') format('woff'),
+        url('subset-Swiss721BT-BlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
